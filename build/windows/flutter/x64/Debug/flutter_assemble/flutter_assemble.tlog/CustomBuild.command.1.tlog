@@ -1,0 +1,28 @@
+^C:\USERS\HIMANSHU\SDK\PROJECT\HELLOAPP\BUILD\WINDOWS\CMAKEFILES\27F98B5DAC01C1C876AB8815E4788D23\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Himanshu\sdk\Development\flutter PROJECT_DIR=C:\Users\Himanshu\sdk\project\helloapp FLUTTER_ROOT=C:\Users\Himanshu\sdk\Development\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Himanshu\sdk\project\helloapp\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Himanshu\sdk\project\helloapp FLUTTER_TARGET=C:\Users\Himanshu\sdk\project\helloapp\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Himanshu\sdk\project\helloapp\.dart_tool\package_config.json C:/Users/Himanshu/sdk/Development/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HIMANSHU\SDK\PROJECT\HELLOAPP\BUILD\WINDOWS\CMAKEFILES\C517BF24C6C16EA0A4E30FA1B5BB880D\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HIMANSHU\SDK\PROJECT\HELLOAPP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Himanshu/sdk/project/helloapp/windows -BC:/Users/Himanshu/sdk/project/helloapp/build/windows --check-stamp-file C:/Users/Himanshu/sdk/project/helloapp/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

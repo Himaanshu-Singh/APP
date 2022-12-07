@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Himanshu\sdk\project\helloapp\build\windows\CMakeFiles\c517bf24c6c16ea0a4e30fa1b5bb880d\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3CC9FADD-6EBA-3E1A-ADF0-C07FFF80A7CC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
